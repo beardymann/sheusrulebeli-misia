@@ -1,0 +1,47 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	text-align: center;
+	font-size: 22px;
+	color: #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container {
+	background-color: #22B573;
+	width: 95%;
+	height: 89%;
+	margin-top: 0%;
+	margin-left: 2.5%;
+}
+
+.logo {
+	float: right;
+	display: inline-block;
+	margin: 50px;
+}
+
+.navigation {
+	display: inline-block;
+	float: right;
+	margin-top: 25px;
+	font-size: 48px;
+	font-family: 'Noto Sans';
+}
+
+.navigation-li {
+	display: inline-block;
+	margin: 20px;
+}
+
+.navigation-a {
+	color: #fff;
+}
+
+.active {
+	color: orange;
+}
